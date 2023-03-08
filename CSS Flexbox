@@ -1,0 +1,114 @@
+<! doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Layout 2</title>
+<style type="text/css">
+*
+{
+	margin: 0px;
+	padding: 0px;
+	font-family:arial;
+	box-sizing:border-box;
+}
+body{
+	display:flex;
+	flex-direction; column;
+}
+#wrapper-div{
+	display:flex;
+	flex-direction:column;
+	width:60%;
+	min-height:100px;
+	margin: auto;
+}
+#logo-nav-div {
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	min-height:50px;
+	background-color: lightgrey;
+}
+#logo-div{
+	display:flex;
+	flex-direction:row;
+    flex-basis: 50%;
+	background-color: red;
+}
+#nav-div {
+	display:flex;
+	flex-direction:row;
+    flex-basis: 50%;
+	background-color: green;
+}
+#header {
+	display:flex;
+	flex-direction:row;
+    width: 100%;
+	background-color: ligthgrey;
+	min-height:100px;
+	margin: top 10px;
+	justify-content:center;
+	align-items:center;
+}
+#boxes-div {
+	display:flex;
+	flex-direction:row;
+    width: 100%;
+	background-color: ligthgrey;
+	min-height:200px;
+	margin: top 10px;
+	justify-content:space-between;
+	align-items:center;
+}
+.box{
+	display:flex;
+	flex-direction:row;
+	flex-basis: 30%;
+	background-color: lightgrey
+	justify-content:space-between;
+	align-items:center;
+}
+#footer{
+	display:flex;
+	flex-direction:row;
+    width: 100%;
+	background-color: ligthgrey;
+	min-height:50px;
+	margin: top 10px;
+	justify-content:center;
+	align-items:center;
+}
+</style>
+</head>
+<body>
+<div id="wrapper-div">
+<div id="logo-nav-div">
+<div id="logo-div">
+Logo
+</div>
+</div>
+</div>
+<div id="nav-div">
+Navigation
+</div>
+<div id="header-div">
+Header
+</div>
+<div id="boxes-div">
+<div class="box">
+Content
+</div>
+<div class="box">
+Main Content
+</div>
+<div class="box">
+Cocntent
+</div>
+<div id="footer-div">
+Footer
+</div>
+</div>
+</body>
+</html>
+

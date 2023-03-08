@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.header {
+  color: white;
+  padding: 20px;
+  background-image: url("https://th.bing.com/th/id/OIP.cvl5FFjgbKhAYD5NZhDv3wHaHa?pid=ImgDet&rs=1");
+  background-size: 650px 170px
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: grey;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+ }
+
+.topnav a:hover {
+  background-color: grey;
+  color: pink ;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+.column.side {
+  width: 25%;
+  background-image: url("https://th.bing.com/th/id/R.9176e536c9d1b4d43527738f7d0411ae?rik=cIehZ7wXEu4U8w&pid=ImgRaw&r=0");
+  background-size: 200px 150px;
+  color: White;
+}
+
+.column.middle {
+  width: 50%;
+   background-image: url("https://thumbs.dreamstime.com/b/beauty-cartoon-skin-care-woman-yellow-background-beauty-cartoon-skin-care-woman-113111128.jpg");
+    background-size: 180px, 100px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>^^</h1>
+</div>
+
+<div class="topnav">
+  <a href="#">Angilal</a>
+  <a href="#">Brand</a>
+  <a href="#">Salbaruud</a>
+  <a href="#">Search</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Medeelel</h2>
+    <p>Online hudaldaa neegdlee</p>
+  </div>
+  
+  <div class="column middle">
+    <h2>Shine nemegdsen brenduud</h2>
+    <ul>
+    <li>Momo Puri</li>
+    <li>Tony Moly</li>
+    <li>Scoopy</li>
+    </ul>
+  </div>
+  
+  <div class="column side">
+    <h2>Ontsloh</h2>
+    <p>Hamgiin ih borluulalttai bvteegdehvvnvvd.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Holboo barih</p>
+  <p1></p1>
+</div>
+  
+</body>
+</html>
